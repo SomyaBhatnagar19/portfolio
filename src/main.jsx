@@ -13,7 +13,7 @@ const profile = {
   location: "Bengaluru",
   email: "bhatnagarsomya19@gmail.com", 
   github: "https://github.com/SomyaBhatnagar19",
-  linkedin: "https://www.linkedin.com/in/yourusername/", 
+  linkedin: "https://www.linkedin.com/in/somya-bhatnagar-56531a341/", 
   resume: "/resume.pdf", 
 };
 
