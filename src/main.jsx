@@ -14,7 +14,7 @@ const profile = {
   email: "bhatnagarsomya19@gmail.com", 
   github: "https://github.com/SomyaBhatnagar19",
   linkedin: "https://www.linkedin.com/in/somya-bhatnagar-56531a341/", 
-  resume: "/resume.pdf", 
+  resume: "/assets/resume.pdf", 
 };
 
 const skills = [
@@ -85,7 +85,7 @@ function App() {
             <h1>Engineering ideas<br/><span>into powerful</span><br/><em>digital solutions.</em></h1>
             <p className="hero-intro">
               Hi, I'm <strong>{profile.name}</strong>, a {profile.role.toLowerCase()} 
-              building scalable, reliable and user-focused digital solutions. 
+               building scalable, reliable and user-focused digital solutions. 
               I specialize in Python, Django, React.js and JavaScript, combining 
               strong backend engineering with modern frontend development. 
               I enjoy turning complex challenges into practical solutions and 
@@ -94,7 +94,10 @@ function App() {
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <ArrowUpRight size={17}/></a>
-              <a className="button button-ghost" href={profile.resume} download><Download size={16}/> Download resume</a>
+              <a className="button button-ghost" href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Download size={16} />
+                View Resume
+              </a>
             </div>
             <div className="hero-meta">
               <span><MapPin size={14}/> {profile.location}</span>
@@ -140,12 +143,32 @@ function App() {
           <div className="about-grid">
             <div className="about-lead">
               <p className="large-copy">I enjoy turning complex problems into simple, usable digital experiences.</p>
-              <p>My professional journey combines software development with an engineering foundation in aerospace. I have worked with web technologies across frontend and backend development, and I'm continuously expanding my skills in AI, automation and intelligent applications.</p>
+              <p>I’m passionate about building technology that solves real problems and creates meaningful impact. With an engineering mindset and experience across full-stack development, I combine technical thinking, creativity and problem-solving to turn complex challenges into elegant solutions. Always exploring better ways to build, innovate and make technology work smarter — especially through AI and automation.</p>
             </div>
             <div className="about-facts">
-              <div className="fact"><span>01</span><div><b>Build with purpose</b><p>Practical solutions, thoughtful details and maintainable code.</p></div></div>
-              <div className="fact"><span>02</span><div><b>Keep learning</b><p>Exploring modern tools and emerging approaches in software.</p></div></div>
-              <div className="fact"><span>03</span><div><b>Think end-to-end</b><p>From understanding a problem to delivering a usable experience.</p></div></div>
+              <div className="fact">
+                <span>01</span>
+                <div>
+                  <b>Own the entire solution</b>
+                  <p>Turning business requirements into reliable, end-to-end software solutions.</p>
+                </div>
+              </div>
+
+              <div className="fact">
+                <span>02</span>
+                <div>
+                  <b>Engineer for scale & reliability</b>
+                  <p>Building maintainable applications with clean architecture and performance in mind.</p>
+                </div>
+              </div>
+
+              <div className="fact">
+                <span>03</span>
+                <div>
+                  <b>Lead with problem-solving</b>
+                  <p>Making thoughtful technical decisions, solving complex challenges and delivering results.</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
