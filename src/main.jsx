@@ -180,15 +180,58 @@ function App() {
               <h2>Where I've<br/><span>made an impact.</span></h2>
             </div>
             <div className="timeline">
-              <div className="timeline-marker"><BriefcaseBusiness size={18}/></div>
-              <div className="timeline-content">
-                <div className="timeline-top"><span className="section-index">SOFTWARE ENGINEERING</span><span className="timeline-date">PROFESSIONAL EXPERIENCE</span></div>
-                <h3>Software Engineer</h3>
-                <h4>Roboprenr Advanced Learning LLP</h4>
-                <p>Worked on web application development and software solutions using JavaScript, HTML, CSS, Python and Django. Contributed across development tasks and collaborated on building practical technology experiences.</p>
-                <div className="tag-list"><span>JavaScript</span><span>Python</span><span>Django</span><span>HTML</span><span>CSS</span></div>
-                <p className="timeline-note">Add your exact employment dates, product details and measurable achievements here.</p>
-              </div>
+               <div className="timeline-marker"><BriefcaseBusiness size={18}/></div>
+                <div className="timeline-content">
+                    <div className="timeline-top">
+                      <span className="section-index">FULL-STACK & BACKEND ENGINEERING</span>
+                      <span className="timeline-date">2023 — PRESENT</span>
+                    </div>
+                    <h3>Senior Software Engineer</h3>
+                    <h4>Roboprenr Advanced Learning LLP | Bengaluru, India</h4>
+                    <p>Building end-to-end software solutions across backend systems, frontend applications and workflow automation, with a focus on performance, reliability and business impact.</p>
+                    <p><strong>Full-Stack Development:</strong> Developed web application features using Python, Django, JavaScript, HTML5 and CSS3.</p>
+                    <p><strong>Workflow Automation:</strong> Engineered automated data-processing workflows using n8n, Pandas and NumPy to streamline repetitive processes.</p>
+                    <p><strong>System Optimization:</strong> Refactored application modules, optimized database queries and improved backend logic for better performance and maintainability.</p>
+                    <p><strong>Technical Problem-Solving:</strong> Translated business requirements into technical solutions, collaborated with stakeholders and resolved complex application issues.</p>
+                    <div className="tag-list">
+                      <span>Python</span><span>Django</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>n8n</span><span>Pandas</span><span>NumPy</span>
+                    </div>
+                    <p className="timeline-note">Focus: Full-stack engineering, backend optimization and intelligent workflow automation.</p>
+                  </div>
+
+                  <div className="timeline-marker"><Code2 size={18}/></div>
+                  <div className="timeline-content">
+                    <div className="timeline-top">
+                      <span className="section-index">FRONTEND ENGINEERING</span>
+                      <span className="timeline-date">2022 — 2023</span>
+                    </div>
+                    <h3>Software Engineer</h3>
+                    <h4>Prep Rockets | India</h4>
+                    <p>Developed responsive web interfaces and interactive application experiences, emphasizing reusable components, usability and consistent performance across devices.</p>
+                    <p><strong>Frontend Development:</strong> Built modular React.js components and interactive user interfaces using JavaScript, HTML5 and CSS3.</p>
+                    <p><strong>Application Development:</strong> Contributed to feature enhancements, UI/API integration, debugging and iterative product improvements.</p>
+                    <div className="tag-list">
+                      <span>React.js</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>API Integration</span>
+                    </div>
+                    <p className="timeline-note">Focus: Responsive interfaces, reusable components and frontend engineering.</p>
+                  </div>
+
+                  <div className="timeline-marker"><Cpu size={18}/></div>
+                  <div className="timeline-content">
+                    <div className="timeline-top">
+                      <span className="section-index">UAV & SYSTEMS ENGINEERING</span>
+                      <span className="timeline-date">2021 — 2022</span>
+                    </div>
+                    <h3>Drone Engineer</h3>
+                    <h4>Skytex UAVs | India</h4>
+                    <p>Worked on unmanned aerial vehicle systems, combining hardware diagnostics, software troubleshooting and engineering analysis to improve system functionality and operational reliability.</p>
+                    <p><strong>Systems Engineering:</strong> Performed hardware-software diagnostics and system-level troubleshooting across UAV platforms.</p>
+                    <p><strong>Testing & Diagnostics:</strong> Conducted operational testing and investigated technical issues to identify root causes and implement solutions.</p>
+                    <div className="tag-list">
+                      <span>UAV Systems</span><span>System Diagnostics</span><span>Hardware-Software Integration</span><span>Matlab</span>
+                    </div>
+                    <p className="timeline-note">Focus: Systems engineering, technical diagnostics and analytical problem-solving.</p>
+                  </div>
             </div>
           </div>
         </section>
