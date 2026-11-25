@@ -31,7 +31,7 @@ const projects = [
     type: "BACKEND DEVELOPMENT",
     description: "A backend application demonstrating API design, structured endpoints, data handling and authentication patterns.",
     stack: ["Python", "Django", "REST API"],
-    github: "https://github.com/yourusername", // Replace with the specific project URL
+    github: "https://github.com/SomyaBhatnagar19", 
     demo: "",
   },
   {
@@ -82,10 +82,15 @@ function App() {
         <section className="hero section-wrap" id="home">
           <div className="hero-copy">
             <div className="eyebrow"><span className="status-dot"/> AVAILABLE FOR THE NEXT CHALLENGE</div>
-            <h1>Building digital<br/><span>things that</span><br/><em>make sense.</em></h1>
+            <h1>Engineering ideas<br/><span>into powerful</span><br/><em>digital solutions.</em></h1>
             <p className="hero-intro">
-              I'm <strong>{profile.name}</strong>, a {profile.role.toLowerCase()} focused on building useful,
-              reliable and thoughtful web experiences with Python and modern JavaScript technologies.
+              Hi, I'm <strong>{profile.name}</strong>, a {profile.role.toLowerCase()} 
+              building scalable, reliable and user-focused digital solutions. 
+              I specialize in Python, Django, React.js and JavaScript, combining 
+              strong backend engineering with modern frontend development. 
+              I enjoy turning complex challenges into practical solutions and 
+              exploring Generative AI, Agentic AI, LLM-powered applications and 
+              intelligent workflow automation to build what's next.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <ArrowUpRight size={17}/></a>
