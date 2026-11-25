@@ -18,10 +18,59 @@ const profile = {
 };
 
 const skills = [
-  { group: "Languages", items: ["Python", "JavaScript", "HTML5", "CSS3"] },
-  { group: "Frameworks & runtime", items: ["Django", "React", "Node.js"] },
-  { group: "Focus areas", items: ["Backend development", "REST APIs", "Responsive UI", "AI & automation"] },
-  { group: "Currently exploring", items: ["Generative AI", "Agentic AI", "LLM applications", "Workflow automation"] },
+  {
+    group: "Languages & Frontend",
+    items: [
+      "Python",
+      "JavaScript (ES6+)",
+      "SQL",
+      "HTML5",
+      "CSS3",
+      "React.js",
+      "Tailwind CSS",
+      "Responsive UI/UX",
+      "State Management",
+      "Reusable Components"
+    ]
+  },
+  {
+    group: "Backend & Databases",
+    items: [
+      "Django",
+      "Django REST Framework",
+      "RESTful APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "Database Design",
+      "Query Optimization",
+      "Authentication & Security"
+    ]
+  },
+  {
+    group: "Automation & DevOps",
+    items: [
+      "n8n Workflow Automation",
+      "API Integrations",
+      "Git",
+      "GitHub",
+      "CI/CD Fundamentals",
+      "Performance Profiling",
+      "Debugging",
+      "ETL & Data Processing",
+      "Pandas",
+      "NumPy"
+    ]
+  },
+  {
+    group: "Engineering & Methodologies",
+    items: [
+      "System Design",
+      "Agile",
+      "Scrum",
+      "Software Development Life Cycle",
+      "Cross-Functional Collaboration"
+    ]
+  }
 ];
 
 const projects = [
@@ -297,7 +346,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="footer section-wrap"><a className="brand" href="#home"><span className="brand-mark">S.</span><span>SOMYA BHATNAGAR</span></a><span>DESIGNED & BUILT WITH CARE · © {new Date().getFullYear()}</span><a href="#home" className="back-top">BACK TO TOP ↑</a></footer>
+      <footer className="footer section-wrap"><a className="brand" href="#home"><span className="brand-mark">S.</span><span>SOMYA BHATNAGAR</span></a><a href="#home" className="back-top">BACK TO TOP ↑</a></footer>
     </div>
   );
 }
